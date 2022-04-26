@@ -14,7 +14,7 @@ let cardsEl = document.getElementById("cards-el");
 
 // create an object 
 let player = {
-    playerName: "Zaib",
+    playerName: "ShahZaib",
  playerChips: 150
 }
 
