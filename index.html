@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <!-- Link to the index.css file
+        E.g. search for "how to link to css from html" -->
+        <link rel = "stylesheet" href = "index.css">
+    </head>
+    <body>
+        
+        <h1>Blackjack</h1>
+        <p id="message-el">Want to play a round?.</p>
+        <p id="cards-el">Cards:</p>
+        <p id="sum-el">Sum:</p>
+    <!--14: make a start button-->
+    <!-- 1. Create a button that says START GAME. 
+        Make it call a startGame() function when clicked -->
+        <button id = "btn-start" onclick="startGame()">Start Game</button>
+        <button id = "btn-start"  onclick="newCard()">New Card</button>
+        
+        <!-- 1. Create a paragraph with an id of "player-el" -->
+        <p id="player-el"></p>
+        <script src="index.js"></script>
+    </body>
+</html>
